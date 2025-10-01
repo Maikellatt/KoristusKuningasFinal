@@ -1,27 +1,23 @@
 # KoristusKuningasFinal
 
-Koristus Kuningas on puhastusteenuseid pakkuv ettevõte, mille senine koduleht oli staatiline ja pakkus klientidele vaid põhiteavet teenuste kohta. Teenuste tellimiseks tuli klientidel ettevõttega eraldi ühendust võtta e-posti või telefoni teel, mis muutis kogu protsessi aeganõudvaks ja ebaefektiivseks.
+„Veebipõhise broneerimissüsteemiga kodulehe arendamine ettevõttele ‘Koristus Kuningas’ Vue.js raamistikus“
 
-Selle projekti eesmärk on välja töötada uus koduleht, mis ühendab endas kaasaegse veebidisaini, mobiilisõbralikkuse ning praktilise broneerimissüsteemi. Uus süsteem võimaldab klientidel reaalajas valida sobiva teenuse (nt kodukoristus, suurpuhastus, tekstiilipesu), määrata sobiva kuupäeva ja kellaaja ning broneering kohe kinnitada.
+Lühikirjeldus:
 
-Tehnilisest küljest on lahendus ehitatud Vue 3 raamistikul loodud kasutajaliidesele, mis suhtleb Laravel 11 backendi kaudu andmebaasiga. Kõik broneeringud ja kliendiandmed salvestatakse MySQL andmebaasi, mis tagab töökindla ja skaleeritava andmete halduse.
+Lõputöö eesmärk on luua kaasaegne ja mobiilisõbralik koduleht koristusteenuseid pakkuvale ettevõttele „Koristus Kuningas“ Vue.js raamistikus. Projekt hõlmab järgmisi komponente:
 
-Frontend on hostitud Netlify platvormil, mis tagab kiire laadimise ja lihtsa CI/CD töövoo. Backend töötab eraldi serveris (nt Zone.ee või VPS), kust Laravel pakub REST API teenuseid. Selline arhitektuur võimaldab süsteemi paindlikult arendada, hallata ja laiendada ka tulevikus.
+Frontend arendus Vue.js ja Tailwind CSS abil, tagamaks kiire, reageeriv ja kasutajasõbralik liides.
 
-Projekti tulemusena valmib täielikult funktsionaalne koduleht, kus kliendid saavad:
+Broneerimissüsteemi integreerimine, kasutades turul olemasolevat lahendust, et kliendid saaksid broneerida teenuseid otse veebilehelt.
 
-tutvuda ettevõtte teenuste ja hindadega,
+Kontaktivormide ja andmevoogude turvaline haldamine, kaasa arvatud e-posti teavitused.
 
-teha broneeringuid otse veebilehelt,
+Kodulehe optimeerimine SEO ja kiiruse jaoks, et parandada nähtavust otsingumootorites.
 
-saada kinnituse e-posti teel.
+Lõputöö eesmärgid:
 
-Ettevõtte poolel saab administraator:
+Analüüsida olemasolevaid lahendusi ja valida sobiv broneerimissüsteem.
 
-hallata broneeringuid läbi backendi liidese,
+Kavandada ja arendada Vue.js baasil frontend, millel on kaasaegne kasutajaliides.
 
-vaadata klientide ajalugu ja andmeid,
-
-muuta teenuste valikut ja hindu vastavalt vajadusele.
-
-Lõpptulemus on reaalne äriline tööriist, mis tõstab ettevõtte efektiivsust ja muudab kliendisuhtluse mugavamaks, vähendades samal ajal manuaalset töökoormust.
+Testida ja dokumenteerida kogu süsteemi töökindlus ja kasutusmugavus.
