@@ -4,7 +4,10 @@
 
 Lühikirjeldus:
 
-Lõputöö eesmärk on luua kaasaegne ja mobiilisõbralik koduleht koristusteenuseid pakkuvale ettevõttele „Koristus Kuningas“ Vue.js raamistikus. Projekt hõlmab järgmisi komponente:
+Lõputöö eesmärk on luua kaasaegne ja mobiilisõbralik koduleht koristusteenuseid pakkuvale ettevõttele „Koristus Kuningas“ Vue.js raamistikus.
+Hetkel olen eelnevalt üles ehitanud lehe HTML/CSS peale ja mis on töötav leht.
+
+Projekt hõlmab järgmisi komponente:
 
 Frontend arendus Vue.js ja Tailwind CSS abil, tagamaks kiire, reageeriv ja kasutajasõbralik liides.
 
